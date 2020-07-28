@@ -1,0 +1,80 @@
+*, :after, :before {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box
+}
+
+html {
+  background-image: url(../../images/FormulesGrijs.svg)
+}
+
+#page {
+  height: 100%
+}
+
+#main {
+  min-height: 100%;
+  position: relative
+}
+
+#header {
+  position: fixed;
+  width: 100%;
+  z-index: 999
+}
+
+.no-header #header {
+  display: none
+}
+
+#header a {
+  text-decoration: none
+}
+
+#logo {
+  margin-right: auto
+}
+
+.header__logo-image {
+  height: 1.75rem
+}
+
+#main-menu .menu {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  align-items: center
+}
+
+#main-menu a {
+  border-radius: 4px;
+  padding: .75rem 1rem
+}
+
+#main-menu .menu__item img {
+  border-radius: 50%;
+  width: 3rem
+}
+
+#content, #header {
+  border-left: 0 !important;
+  border-right: 0 !important;
+  word-wrap: break-word
+}
+
+#content {
+  box-sizing: content-box;
+  margin: 8.5rem auto;
+  width: 900px;
+  padding: 2rem;
+  position: relative
+}
+
+#header:after, #header:before, #main:after, #main:before {
+  content: "";
+  display: table
+}
+
+#header:after, #main:after {
+  clear: both
+}

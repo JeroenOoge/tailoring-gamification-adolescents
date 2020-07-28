@@ -1,0 +1,51 @@
+#header, input[type=submit] {
+  background-color: #00897b
+}
+
+.uitleg-woord .tex2jax, input[type=submit] {
+  border-color: #00897b
+}
+
+.description, a {
+  color: #00897b
+}
+
+input[type=submit]:hover {
+  background-color: #00796b
+}
+
+input[type=submit]:hover {
+  border-color: #00796b
+}
+
+html {
+  background-color: #eceff1
+}
+
+.box {
+  background-color: #fff
+}
+
+#main-menu a, input[type=submit] {
+  color: #fff
+}
+
+#main {
+  color: #455a64
+}
+
+input[type=button], input[type=password], input[type=text] {
+  border-color: #78909c
+}
+
+input[type=button] {
+  color: #78909c
+}
+
+.form-required {
+  color: #e53935
+}
+
+.node-instructie, .status, .uitleg-woord:hover .tex2jax {
+  background-color: #b2dfdb
+}

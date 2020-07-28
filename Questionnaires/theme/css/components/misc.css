@@ -1,0 +1,301 @@
+.node-42 .node-title {
+  display: none
+}
+
+.logo-grijs {
+  margin-bottom: 3rem
+}
+
+.pane-node .logo-grijs {
+  margin-bottom: 0
+}
+
+.logo-grijs p {
+  margin: 0
+}
+
+.logo-grijs img {
+  height: 3rem
+}
+
+.icon-with-text {
+  align-items: center;
+  display: flex;
+  margin-right: .5rem
+}
+
+.icon-with-text:last-child {
+  margin: 0
+}
+
+.icon-with-text .icon {
+  margin-right: .25rem
+}
+
+.icon {
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: inline-block;
+  height: 1rem;
+  vertical-align: middle;
+  width: 1rem
+}
+
+.node p:last-child {
+  margin: 0
+}
+
+.node-instructie {
+  border-radius: 4px;
+  padding: 1rem
+}
+
+.node-instructie .field-name-field-afbeelding img {
+  float: left;
+  height: 2.5rem;
+  width: 2.5rem;
+  margin-right: 1rem
+}
+
+.node-instructie .field-name-body {
+  margin-left: 3.5rem
+}
+
+.node-instructie p {
+  margin: 0
+}
+
+.element-focusable, .element-invisible {
+  position: absolute !important;
+  height: 1px;
+  width: 1px;
+  overflow: hidden;
+  clip: rect(1px 1px 1px 1px);
+  clip: rect(1px, 1px, 1px, 1px)
+}
+
+.element-focusable:active, .element-focusable:focus {
+  position: static !important;
+  clip: auto;
+  height: auto;
+  width: auto;
+  overflow: auto
+}
+
+#skip-link {
+  margin: 0
+}
+
+#skip-link a, #skip-link a:visited {
+  display: block;
+  width: 100%;
+  padding: 2px 0 3px 0;
+  text-align: center
+}
+
+.node__title, .page__title {
+  margin-bottom: 20px
+}
+
+.button:hover {
+  text-decoration: none
+}
+
+input[type=button], input[type=submit] {
+  border: 1px solid;
+  border-radius: 4px;
+  display: inline-block;
+  padding: .75rem 1rem
+}
+
+input[type=button], input[type=submit] {
+  margin-right: 1rem
+}
+
+input[type=submit]:last-child {
+  margin-right: 0
+}
+
+span.field-label {
+  padding: 0 1em 0 0
+}
+
+.form-item {
+  border: none;
+  padding: 0
+}
+
+.form-item {
+  margin: 0 0 2rem 0
+}
+
+.form-item label {
+  font-weight: 700;
+  margin-bottom: .5rem;
+  text-align: left
+}
+
+.form-actions {
+  margin-top: 3rem
+}
+
+input[type=password], input[type=text] {
+  border: 1px solid;
+  margin: 0;
+  padding: .75rem
+}
+
+input[type=checkbox], input[type=radio] {
+  margin-right: .5rem
+}
+
+tr.even .form-item, tr.odd .form-item {
+  margin: 0
+}
+
+.description {
+  height: 0;
+  opacity: 0;
+  transition: .25s ease-in-out
+}
+
+.description {
+  font-size: .875rem
+}
+
+input:focus~.description {
+  padding-top: 1rem
+}
+
+input:focus~.description {
+  height: auto;
+  opacity: 1
+}
+
+.form-type-checkbox .description, .form-type-radio .description {
+  margin-left: 2.4em
+}
+
+label.option {
+  display: inline;
+  font-weight: 400;
+  margin: 0
+}
+
+.webform-client-form {
+  clear: both
+}
+
+.webform-client-form .sticky-header th {
+  padding-top: 3rem
+}
+
+.webform-client-form td {
+  padding-bottom: .5rem;
+  padding-top: .5rem
+}
+
+.webform-grid-question {
+  padding-right: 1.5rem
+}
+
+.webform-grid-question .form-required {
+  display: none
+}
+
+.webform-grid-option {
+  width: 3rem;
+  text-align: center;
+  padding: 0 .5rem
+}
+
+th.webform-grid-option {
+  font-size: .75rem;
+  line-height: 1;
+  padding-bottom: 1rem;
+  text-align: center
+}
+
+.webform-component .description {
+  color: inherit;
+  font-size: inherit;
+  height: auto;
+  opacity: 1;
+  padding-bottom: 2rem
+}
+
+.pane-bfi-44, .pane-hexad {
+  position: relative
+}
+
+.uitleg-woord {
+  position: absolute;
+  display: block;
+  overflow: hidden;
+  white-space: nowrap
+}
+
+.uitleg-woord:hover {
+  cursor: help;
+  width: auto
+}
+
+.uitleg-provoceren {
+  top: 28.5rem;
+  left: 12.5rem;
+  width: 5.5rem
+}
+
+.uitleg-status-quo {
+  top: 9rem;
+  left: 13rem;
+  width: 4.75rem
+}
+
+.uitleg-woord .tex2jax {
+  padding: .25rem .75rem;
+  border-bottom: 1.5px dashed;
+  color: transparent;
+  transition: .1s ease-in
+}
+
+.uitleg-woord:hover .tex2jax {
+  color: inherit;
+  border-radius: .25rem;
+  border: 0;
+  padding: .5rem .75rem;
+  margin-top: 2.5rem
+}
+
+.uitleg-woord p {
+  margin: 0
+}
+
+.panel-2col {
+  position: relative
+}
+
+.panel-pane {
+  margin-bottom: 3rem
+}
+
+.panel-pane:last-child {
+  margin: 0
+}
+
+.box {
+  border-radius: 4px;
+  box-shadow: 0 0 1rem rgba(0, 0, 0, .05);
+  clear: both;
+  padding: 3rem
+}
+
+.node-14 {
+  display: flex;
+  align-items: center
+}
+
+.node-14 .field-name-field-afbeelding {
+  flex: 0 0 15rem;
+  margin-right: 3rem
+}

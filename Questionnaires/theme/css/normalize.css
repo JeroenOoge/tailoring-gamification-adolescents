@@ -1,0 +1,133 @@
+article, header, main, section, summary {
+  display: block
+}
+
+[hidden] {
+  display: none
+}
+
+html {
+  font-family: Helvetica, Arial, "Nimbus Sans L", sans-serif;
+  font-size: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  height: 100%;
+  line-height: 1.5
+}
+
+button, input {
+  font-family: Helvetica, Arial, "Nimbus Sans L", sans-serif
+}
+
+body {
+  margin: 0;
+  height: 100%;
+  padding: 0
+}
+
+a:link, a:visited {
+  text-decoration: none
+}
+
+a:focus, a:hover {
+  text-decoration: underline
+}
+
+a:focus {
+  outline: thin dotted
+}
+
+a:active, a:hover {
+  outline: 0
+}
+
+p {
+  margin: 0 0 1.5rem 0
+}
+
+strong {
+  font-weight: 700
+}
+
+menu {
+  margin: 1.5em 0
+}
+
+menu {
+  padding: 0 0 0 30px
+}
+
+img {
+  border: 0;
+  -ms-interpolation-mode: bicubic;
+  vertical-align: bottom;
+  max-width: 100%;
+  height: auto;
+  width: auto
+}
+
+form {
+  margin: 0;
+  overflow: hidden
+}
+
+button, input {
+  font-family: inherit;
+  font-size: 100%;
+  margin: 0;
+  vertical-align: baseline;
+  max-width: 100%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box
+}
+
+button, input {
+  line-height: normal
+}
+
+button {
+  text-transform: none
+}
+
+button, html input[type=button], input[type=reset], input[type=submit] {
+  -webkit-appearance: button;
+  cursor: pointer
+}
+
+button[disabled], html input[disabled] {
+  cursor: default
+}
+
+input[type=checkbox], input[type=radio] {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 0
+}
+
+input[type=search] {
+  -webkit-appearance: textfield;
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box
+}
+
+input[type=search]::-webkit-search-cancel-button, input[type=search]::-webkit-search-decoration {
+  -webkit-appearance: none
+}
+
+button::-moz-focus-inner, input::-moz-focus-inner {
+  border: 0;
+  padding: 0
+}
+
+label {
+  display: block;
+  font-weight: 700
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0
+}
